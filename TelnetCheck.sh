@@ -1,5 +1,8 @@
 #/bin/bash
-
+#Usage:  Place both the shell and property file at any unix path and running the shell by executing ./TelnetCheck.sh
+#        Edit the property file as per your list of telnet nodes. This script is tested on Oracle Linux 
+# Created By : Mayank Satra      #Creation Date : 18/05/2020
+# Version : V01
 export DateStamp=`echo -e $(date '+%d%m%Y')`
 export TodayLogFile=TelnetCheckProd_$DateStamp.log
 >> $TodayLogFile
